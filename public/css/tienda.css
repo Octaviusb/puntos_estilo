@@ -1,0 +1,88 @@
+/* Estilos para el encabezado */
+header {
+    background-color: #030e3f;
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo-size {
+    max-width: 100px;
+    height: auto;
+}
+
+/* Estilos para la navegación */
+nav ul li{
+    text-align: right;
+    display: inline-block;
+    justify-content: flex-end;
+}
+
+nav ul li a{
+    text-decoration: none;
+    border: solid;
+    border-color: #7D8471;
+    border-radius: 5px;
+    background-color: #7D8471;
+    color: white;
+    padding: 5px;
+    margin: 5px
+}
+
+nav ul li a:hover{
+    background-color: #B8B799;
+    border-color: #B8B799;
+}
+
+nav ul li a:active{
+    padding: 0.2em;
+}
+
+/* Estilos para la sección de productos */
+.product_popup_modal {
+    padding: 50px 0; /* Relleno superior e inferior de 50px y ningún relleno a los lados */
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+}
+
+.modal-body {
+    max-width: 800px; /* Ancho máximo del modal */
+    margin: auto; /* Centrar el modal horizontalmente */
+}
+
+/* Estilos para los botones del modal */
+.btn-close {
+    color: #333; /* Color de texto oscuro */
+    background-color: transparent; /* Fondo transparente */
+    border: none; /* Sin borde */
+    font-size: 24px; /* Tamaño de fuente */
+}
+
+.btn-close:hover {
+    color: #ff6347; /* Color de texto naranja al pasar el mouse */
+}
+
+/* Estilos para la sección de breadcrumb */
+#wsus__breadcrumb {
+    background-color: #f2f2f2; /* Color de fondo gris claro */
+    padding: 15px 0; /* Relleno superior e inferior de 15px y ningún relleno a los lados */
+}
+
+.wsus_breadcrumb_overlay ul {
+    list-style-type: none; /* Sin viñetas en la lista */
+    margin: 0; /* Sin márgenes */
+    padding: 0; /* Sin relleno */
+}
+
+.wsus_breadcrumb_overlay ul li {
+    display: inline; /* Mostrar elementos de la lista en línea */
+}
+
+.wsus_breadcrumb_overlay ul li a {
+    color: #333; /* Color de texto oscuro */
+    text-decoration: none; /* Sin subrayado en los enlaces */
+    padding: 5px; /* Relleno interno de 5px */
+    transition: color 0.3s; /* Transición suave para el color del texto */
+}
+
+.wsus_breadcrumb_overlay ul li a:hover {
+    color: #ff6347; /* Color de texto naranja al pasar el mouse */
+}
